@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import { NextIntlClientProvider } from "next-intl";
 import { cookies, headers } from "next/headers";
+import { Analytics } from "@vercel/analytics/react";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -29,6 +30,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "vi_VN",
+  },
+  icons: {
+    icon: "/profile.jpeg",
   },
   robots: { index: true, follow: true },
 };
@@ -61,6 +65,7 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

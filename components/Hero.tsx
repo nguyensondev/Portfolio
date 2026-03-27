@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { AnimatedSection } from "./AnimatedSection";
 import { ArrowDown, Download } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
   const t = useTranslations("Hero");
@@ -17,13 +18,26 @@ export function Hero() {
       </div>
 
       <div className="flex flex-col max-w-3xl space-y-8 z-10 w-full relative">
-        <div className="space-y-4">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
-            {t("name")}
-          </h1>
-          <h2 className="text-xl md:text-2xl font-mono text-accent">
-            {t("role")}
-          </h2>
+        <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 text-center md:text-left">
+          <div className="relative w-28 h-28 md:w-36 md:h-36 rounded-full ring-[4px] ring-card/80 overflow-hidden shrink-0 shadow-[0_0_30px_rgba(37,99,235,0.15)] group">
+            <Image
+              src="/profile.jpeg"
+              alt="Son Nguyen"
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              priority
+              sizes="(max-width: 768px) 128px, 144px"
+            />
+          </div>
+          
+          <div className="space-y-4 pt-1">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-foreground">
+              {t("name")}
+            </h1>
+            <h2 className="text-xl md:text-2xl font-mono text-accent">
+              {t("role")}
+            </h2>
+          </div>
         </div>
 
         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-balance max-w-2xl font-light">
