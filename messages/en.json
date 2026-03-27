@@ -1,0 +1,142 @@
+{
+  "Navigation": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects Solo",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "name": "Nguyen Ngoc Quoc Son",
+    "role": "Fullstack Developer · Frontend & Mobile Specialist",
+    "tagline": "9+ years turning ideas into products — from backend APIs to pixel-perfect UIs and App Store releases.",
+    "bio": "I build complete products — not just components. With 9+ years across web and mobile, I've led teams, shipped SaaS platforms, and delivered freelance projects solo from zero. My strongest territory is the React ecosystem, but I'm comfortable anywhere in the stack.",
+    "viewWork": "View My Work",
+    "downloadCV": "Download CV"
+  },
+  "Skills": {
+    "title": "My Toolkit",
+    "categories": {
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "state_management": "State Management",
+      "backend_api": "Backend & API",
+      "web3": "Web3",
+      "tooling": "Tooling & DevOps",
+      "exploring": "Exploring"
+    }
+  },
+  "Experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "role": "Technical Lead & Senior Fullstack Developer",
+        "company": "Charmsta Cty Ltd",
+        "teamSize": "Team: 5",
+        "period": "Nov 2022 – Present",
+        "bullets": [
+          "Architected and shipped the Charmsta SaaS platform end-to-end — store management, inventory, employee management, and booking for nail & cosmetic businesses.",
+          "Built the customer-facing ReactJS + TypeScript web app with a reusable component library, code splitting, lazy loading, and memoization for fast load times.",
+          "Developed the React Native mobile app for iOS and Android; engineered native payment modules supporting multiple gateways and cut app startup time by 35%.",
+          "Integrated Firebase Cloud Messaging for push notifications and Redux for cross-feature state management.",
+          "Set coding standards, conducted code reviews, and mentored 2 junior developers."
+        ],
+        "stack": ["ReactJS", "TypeScript", "React Native", "Redux", "Node.js", "Firebase", "CSS Modules", "Axios"]
+      },
+      {
+        "role": "Senior Frontend & Mobile Developer",
+        "company": "EST Media (Remote)",
+        "teamSize": "Team: 4",
+        "period": "Aug 2021 – Nov 2022",
+        "bullets": [
+          "Contributed to OP3N — a Web3 NFT super-app covering creation, minting, trading, and community features.",
+          "Implemented Web3Auth and WalletConnect for seamless crypto wallet authentication on web and mobile.",
+          "Built responsive NFT gallery UI with optimised FlatList rendering for large asset collections.",
+          "Applied React.memo, useMemo, and custom hooks to improve perceived performance across React and React Native."
+        ],
+        "stack": ["ReactJS", "React Native", "TypeScript", "MobX", "Web3Auth", "WalletConnect", "Styled Components"]
+      },
+      {
+        "role": "Mobile Technical Lead",
+        "company": "VUI Việt Nam",
+        "teamSize": "Team: 5",
+        "period": "Sep 2019 – Aug 2021",
+        "bullets": [
+          "Led development of TAP TAP — a loyalty app partnered with major consumer brands for in-store engagement.",
+          "Built native payment modules for multiple providers and QR-code scanning for loyalty card integration.",
+          "Integrated geolocation services for store-locator and Redux-Saga for complex async workflows.",
+          "Delivered a React admin dashboard with Chart.js data visualisation for partner brand analytics."
+        ],
+        "stack": ["React Native", "TypeScript", "Redux-Saga", "ReactJS", "SASS", "Native Modules"]
+      },
+      {
+        "role": "Senior Frontend & Mobile Developer",
+        "company": "Success Software Services",
+        "teamSize": "Team: 3",
+        "period": "Mar 2019 – Aug 2019",
+        "bullets": [
+          "Built Xpersity — a platform connecting clients with domain experts via real-time video consultation.",
+          "Implemented WebRTC-based video calling for web and mobile with reliable session management.",
+          "Performance improvements contributed to a 25% increase in user engagement metrics."
+        ],
+        "stack": ["ReactJS", "React Native", "TypeScript", "Redux Saga", "WebRTC", "Material-UI"]
+      },
+      {
+        "role": "Mobile Team Leader",
+        "company": "Marry Network",
+        "teamSize": "Team: 3",
+        "period": "Dec 2017 – Mar 2019",
+        "bullets": [
+          "Led MarryBaby and 1000NgayVang apps — pregnancy tracking and parenting tools with 100k+ users.",
+          "Pioneered on-device baby image classification using TensorFlow Mobile — an early mobile ML integration.",
+          "Built React admin panels with analytics dashboards for editorial and engagement monitoring."
+        ],
+        "stack": ["React Native", "TypeScript", "Redux Thunk", "TensorFlow Mobile", "ReactJS", "Bootstrap"]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Landsoft Company",
+        "teamSize": "Team: 5",
+        "period": "Nov 2016 – Dec 2017",
+        "bullets": [
+          "Developed Vime — a real estate & social networking platform for condominium residents.",
+          "Built real-time chat using WebSocket and notification system for building-wide announcements.",
+          "Delivered responsive property listing pages with an interactive browsing experience."
+        ],
+        "stack": ["ReactJS", "Redux Thunk", "WebSocket", "SCSS"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects Solo",
+    "intro": "Alongside full-time roles, I've taken on select freelance projects where I owned the full stack — architecture decisions, implementation, and post-launch support. These are real products built for real clients.",
+    "items": [
+      {
+        "domain": "Fintech",
+        "year": "2025",
+        "title": "Fintech Platform",
+        "description": "Built a fintech mobile application solo — Node.js backend API + React Native frontend — covering transaction flows, account management, and secure third-party financial service integrations. Handled full post-launch maintenance.",
+        "stack": ["Node.js", "React Native", "REST API", "TypeScript"],
+        "badges": ["Solo", "Full-stack", "2025"]
+      },
+      {
+        "domain": "Banking",
+        "year": "2022",
+        "title": "Banking Platform",
+        "description": "Built a banking web application from zero as a solo fullstack developer — Node.js REST API backend + ReactJS frontend — including account operations, fund transfers, transaction history, and secure auth flows.",
+        "stack": ["Node.js", "ReactJS", "REST API", "TypeScript"],
+        "badges": ["Solo", "Full-stack", "2022"]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Let's Build Something",
+    "copy": "Whether you're looking to hire a senior fullstack developer or need someone to take a project from idea to launch — I'm open to conversations. No agencies, no middlemen. You talk directly to the person who'll build your product.",
+    "cta": "Send me a message",
+    "education": "BSc Information Technology — Đà Lạt University, 2013 · English: Intermediate"
+  },
+  "Footer": {
+    "left": "© 2025 Nguyen Ngoc Quoc Son",
+    "right": "Built with Next.js · Deployed on Vercel"
+  }
+}

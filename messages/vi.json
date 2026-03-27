@@ -1,0 +1,142 @@
+{
+  "Navigation": {
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "experience": "Kinh nghiệm",
+    "projects": "Projects Solo",
+    "contact": "Liên hệ"
+  },
+  "Hero": {
+    "name": "Nguyễn Ngọc Quốc Sơn",
+    "role": "Fullstack Developer · Frontend & Mobile Specialist",
+    "tagline": "Hơn 9 năm biến ý tưởng thành sản phẩm — từ backend API đến UI hoàn thiện và ra mắt trên App Store.",
+    "bio": "Mình xây sản phẩm hoàn chỉnh — không chỉ viết component. Hơn 9 năm làm việc với web lẫn mobile, mình từng dẫn team, ra mắt nền tảng SaaS, và tự tay xây dựng các dự án freelance từ đầu. React ecosystem là sân nhà, nhưng mình thoải mái với cả stack.",
+    "viewWork": "Xem dự án",
+    "downloadCV": "Tải CV"
+  },
+  "Skills": {
+    "title": "Công nghệ mình dùng",
+    "categories": {
+      "frontend": "Frontend",
+      "mobile": "Mobile",
+      "state_management": "Quản lý trạng thái (State)",
+      "backend_api": "Backend & API",
+      "web3": "Web3",
+      "tooling": "Tooling & DevOps",
+      "exploring": "Đang tìm hiểu"
+    }
+  },
+  "Experience": {
+    "title": "Kinh nghiệm",
+    "jobs": [
+      {
+        "role": "Technical Lead & Senior Fullstack Developer",
+        "company": "Charmsta Cty Ltd",
+        "teamSize": "Team: 5",
+        "period": "Thg 11 2022 – Hiện tại",
+        "bullets": [
+          "Thiết kế kiến trúc và ra mắt nền tảng Charmsta SaaS hoàn chỉnh — quản lý cửa hàng, kho hàng, nhân sự và đặt lịch cho doanh nghiệp nail & mỹ phẩm.",
+          "Xây dựng web app cho khách hàng bằng ReactJS + TypeScript với thư viện component tái sử dụng, code splitting, lazy loading và memoization giúp tối ưu thời gian tải.",
+          "Phát triển mobile app React Native cho iOS và Android; thiết kế native payment modules hỗ trợ nhiều cổng thanh toán, giảm 35% thời gian khởi động app.",
+          "Tích hợp Firebase Cloud Messaging cho push notification và Redux quản lý state liên kết giữa các tính năng.",
+          "Thiết lập coding standards, code review và hướng dẫn 2 junior developer."
+        ],
+        "stack": ["ReactJS", "TypeScript", "React Native", "Redux", "Node.js", "Firebase", "CSS Modules", "Axios"]
+      },
+      {
+        "role": "Senior Frontend & Mobile Developer",
+        "company": "EST Media (Remote)",
+        "teamSize": "Team: 4",
+        "period": "Thg 8 2021 – Thg 11 2022",
+        "bullets": [
+          "Đóng góp xây dựng OP3N — Web3 NFT super-app bao gồm tạo lập, mint, giao dịch và cộng đồng.",
+          "Tích hợp Web3Auth và WalletConnect cho xác thực crypto wallet mượt mà trên web và mobile.",
+          "Xây dựng UI NFT gallery responsive, tối ưu FlatList render mượt với bộ sưu tập tài sản lớn.",
+          "Ứng dụng React.memo, useMemo và custom hooks cải thiện hiệu năng trên React và React Native."
+        ],
+        "stack": ["ReactJS", "React Native", "TypeScript", "MobX", "Web3Auth", "WalletConnect", "Styled Components"]
+      },
+      {
+        "role": "Mobile Technical Lead",
+        "company": "VUI Việt Nam",
+        "teamSize": "Team: 5",
+        "period": "Thg 9 2019 – Thg 8 2021",
+        "bullets": [
+          "Dẫn dắt phát triển TAP TAP — ứng dụng khách hàng thân thiết, liên kết với các nhãn hàng lớn.",
+          "Phát triển native payment modules và quét QR code tích hợp thẻ thành viên.",
+          "Tích hợp định vị geolocation cho tìm cửa hàng và Redux-Saga xử lý logic bất đồng bộ phức tạp.",
+          "Hoàn thiện dashboard quản trị bằng React với Chart.js trực quan hóa dữ liệu cho đối tác."
+        ],
+        "stack": ["React Native", "TypeScript", "Redux-Saga", "ReactJS", "SASS", "Native Modules"]
+      },
+      {
+        "role": "Senior Frontend & Mobile Developer",
+        "company": "Success Software Services",
+        "teamSize": "Team: 3",
+        "period": "Thg 3 2019 – Thg 8 2019",
+        "bullets": [
+          "Phát triển nền tảng Xpersity kết nối chuyên gia và khách hàng qua video tư vấn thời gian thực.",
+          "Tích hợp gọi video dựa trên WebRTC cho web và mobile đảm bảo quản lý phiên kết nối ổn định.",
+          "Cải thiện hiệu suất hệ thống góp phần tăng 25% tương tác của người dùng."
+        ],
+        "stack": ["ReactJS", "React Native", "TypeScript", "Redux Saga", "WebRTC", "Material-UI"]
+      },
+      {
+        "role": "Mobile Team Leader",
+        "company": "Marry Network",
+        "teamSize": "Team: 3",
+        "period": "Thg 12 2017 – Thg 3 2019",
+        "bullets": [
+          "Dẫn dắt phát triển MarryBaby và 1000NgayVang — ứng dụng theo dõi thai kỳ & làm cha mẹ với hơn 100k+ người dùng.",
+          "Tiên phong tích hợp phân loại hình ảnh em bé trên máy bằng TensorFlow Mobile, áp dụng sớm machine learning trên mobile.",
+          "Xây dựng trang admin bằng React với bảng điều khiển phân tích số liệu tương tác và biên tập."
+        ],
+        "stack": ["React Native", "TypeScript", "Redux Thunk", "TensorFlow Mobile", "ReactJS", "Bootstrap"]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": "Landsoft Company",
+        "teamSize": "Team: 5",
+        "period": "Thg 11 2016 – Thg 12 2017",
+        "bullets": [
+          "Phát triển nền tảng Vime — ứng dụng mạng xã hội & bất động sản cho cư dân chung cư.",
+          "Xây dựng tính năng realtime chat dùng WebSocket và hệ thống thông báo sự kiện tòa nhà.",
+          "Hoàn thiện page danh sách bất động sản responsive với trải nghiệm lướt mượt mà."
+        ],
+        "stack": ["ReactJS", "Redux Thunk", "WebSocket", "SCSS"]
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Projects Solo",
+    "intro": "Song song với công việc chính, mình nhận một số dự án freelance — tự thiết kế kiến trúc, code từ đầu đến cuối và maintain sau khi ra mắt. Đây là sản phẩm thật, cho khách hàng thật.",
+    "items": [
+      {
+        "domain": "Fintech",
+        "year": "2025",
+        "title": "Fintech Platform",
+        "description": "Tự tay xây app fintech — từ Node.js backend đến React Native frontend — bao gồm luồng giao dịch, quản lý tài khoản và tích hợp dịch vụ tài chính bên thứ ba. Maintain toàn bộ sau khi ra mắt.",
+        "stack": ["Node.js", "React Native", "REST API", "TypeScript"],
+        "badges": ["Solo", "Full-stack", "2025"]
+      },
+      {
+        "domain": "Banking",
+        "year": "2022",
+        "title": "Banking Platform",
+        "description": "Xây ứng dụng ngân hàng từ đầu một mình — Node.js backend và ReactJS frontend — bao gồm quản lý tài khoản, chuyển tiền, lịch sử giao dịch và luồng xác thực bảo mật.",
+        "stack": ["Node.js", "ReactJS", "REST API", "TypeScript"],
+        "badges": ["Solo", "Full-stack", "2022"]
+      }
+    ]
+  },
+  "Contact": {
+    "title": "Mình có thể giúp gì cho bạn?",
+    "copy": "Dù bạn đang tìm một senior developer về team hay cần người tự tay build dự án từ ý tưởng đến launch — mình sẵn sàng lắng nghe. Không qua trung gian. Bạn nói chuyện trực tiếp với người sẽ xây sản phẩm cho bạn.",
+    "cta": "Liên hệ ngay",
+    "education": "Cử nhân Công nghệ thông tin — Đại học Đà Lạt, 2013 · Tiếng Anh: Giao tiếp trung cấp"
+  },
+  "Footer": {
+    "left": "© 2025 Nguyen Ngoc Quoc Son",
+    "right": "Built with Next.js · Deployed on Vercel"
+  }
+}
