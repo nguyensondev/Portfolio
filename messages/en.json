@@ -39,7 +39,7 @@
           "Built the customer-facing ReactJS + TypeScript web app with a reusable component library, code splitting, lazy loading, and memoization for fast load times.",
           "Developed the React Native mobile app for iOS and Android; engineered native payment modules supporting multiple gateways and cut app startup time by 35%.",
           "Integrated Firebase Cloud Messaging for push notifications and Redux for cross-feature state management.",
-          "Set coding standards, conducted code reviews, and mentored 2 junior developers."
+          "Set coding standards, conducted code reviews, and mentored 1 junior developers."
         ],
         "stack": ["ReactJS", "TypeScript", "React Native", "Redux", "Node.js", "Firebase", "CSS Modules", "Axios"]
       },
